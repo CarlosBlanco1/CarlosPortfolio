@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/css/output.css",
+      "PackagePath": "staticwebassets/css/output.css"
+    },
+    {
       "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },

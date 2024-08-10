@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yXzzSZmUa3ON9wn1pczEUyoVfN8FyEV2uqbnTzkPABg=",
+  "Hash": "hQ5Z375VnCFlGEEHzX+PDqhF2Xh7S+EBJr22/Gu/geA=",
   "Source": "CarlosPortfolio",
   "BasePath": "/",
   "Mode": "Root",
@@ -7862,6 +7862,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/css/output.css",
+      "SourceId": "CarlosPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "css/output.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/output.css"
     },
     {
       "Identity": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/favicon.png",
