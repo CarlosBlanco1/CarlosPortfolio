@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CfhafHmd315CjesGmUBt0el3q+DbGulLLCpNCpEemLo=",
+  "Hash": "jOVE6TJpfVQL8pxp66KiifG2WfNhh3IkJ3COMZ96Ka8=",
   "Source": "CarlosPortfolio",
   "BasePath": "/",
   "Mode": "Root",
@@ -7900,6 +7900,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/files/Resume.pdf",
+      "SourceId": "CarlosPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "files/Resume.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/files/Resume.pdf"
     },
     {
       "Identity": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/Aleo-Bold.otf",

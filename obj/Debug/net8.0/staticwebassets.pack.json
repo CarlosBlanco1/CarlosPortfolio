@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/files/Resume.pdf",
+      "PackagePath": "staticwebassets/files/Resume.pdf"
+    },
+    {
       "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/Aleo-Bold.otf",
       "PackagePath": "staticwebassets/fonts/Aleo-Bold.otf"
     },
