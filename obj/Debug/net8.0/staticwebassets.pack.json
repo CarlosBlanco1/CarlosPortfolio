@@ -33,6 +33,18 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/Aleo-Bold.otf",
+      "PackagePath": "staticwebassets/fonts/Aleo-Bold.otf"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/Aleo-Regular.otf",
+      "PackagePath": "staticwebassets/fonts/Aleo-Regular.otf"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/neuropoliticalrg.otf",
+      "PackagePath": "staticwebassets/fonts/neuropoliticalrg.otf"
+    },
+    {
       "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/icon-192.png",
       "PackagePath": "staticwebassets/icon-192.png"
     },
