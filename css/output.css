@@ -554,16 +554,8 @@ video {
   --tw-contain-style:  ;
 }
 
-.visible {
-  visibility: visible;
-}
-
-.collapse {
-  visibility: collapse;
-}
-
-.m-10 {
-  margin: 2.5rem;
+.fixed {
+  position: fixed;
 }
 
 .my-5 {
@@ -575,20 +567,12 @@ video {
   margin-top: 1.25rem;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
 
 .table {
   display: table;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .flex-col {
@@ -599,8 +583,8 @@ video {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-x-2 {
@@ -613,17 +597,12 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-20 {
   padding: 5rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-4 {
@@ -631,25 +610,25 @@ video {
   padding-right: 1rem;
 }
 
-.ps-3 {
-  padding-inline-start: 0.75rem;
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .font-aleo {
   font-family: Aleo-Regular, sans-serif;
 }
 
-.font-aleoBold {
-  font-family: Aleo-Bold, sans-serif;
-}
-
 .font-neuropolitical {
   font-family: Neuropolitical, sans-serif;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-4xl {
@@ -660,11 +639,6 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
