@@ -1,22 +1,66 @@
-<h1 class="text-4xl text-white font-neuropolitical">Where I've worked</h1>
+@inject IJSRuntime JSRuntime
 
-<div>
-    <div id="experiences-ctn">
+<h1 class="text-4xl text-white font-neuropolitical mb-20">Where I've worked</h1>
 
-    </div>
+<div class="flex flex-row">
+    <div class=" bg-red-700" id="progress-bar"></div>
+    <div id="experiences-ctn"></div>
 </div>
+
+<style>
+    #progress-bar {
+        width: 5vw;
+    }
+</style>
+
+
+
+<script type="application/json" id="myJsonData">
+    [
+    {
+        "company": "Snow College Engineering",
+        "position": "Teaching Assistant / Grader",
+        "place": "Snow College",
+        "startDate": "2023-26-01",
+        "endDate": "current",
+        "quote": "‘Teaching is the highest form of understanding.’ –Aristotle",
+        "description": "Assisted in more than *nine courses*, including Advanced Front-End Design, Introduction to Web Development, Object-Oriented Programming, and UX Design. *Evaluated projects and assignments*, while actively engaging in labs to address student questions. This experience sharpened my ability to *analyze diverse coding styles*, deepening my understanding of different approaches to code. This experience also helped me improve my *communication skills and work more effectively with others.*",
+        "symbols": ["communication", "teaching", "javascript", "c#"]
+    },
+    {
+        "company": "Snow College Engineering",
+        "position": "Teaching Assistant / Grader",
+        "place": "Snow College",
+        "startDate": "2023-26-01",
+        "endDate": "current",
+        "quote": "‘Teaching is the highest form of understanding.’ –Aristotle",
+        "description": "Assisted in more than *nine courses*, including Advanced Front-End Design, Introduction to Web Development, Object-Oriented Programming, and UX Design. *Evaluated projects and assignments*, while actively engaging in labs to address student questions. This experience sharpened my ability to *analyze diverse coding styles*, deepening my understanding of different approaches to code. This experience also helped me improve my *communication skills and work more effectively with others.*",
+        "symbols": ["communication", "teaching", "javascript", "c#"]
+    },
+    {
+        "company": "Snow College Engineering",
+        "position": "Teaching Assistant / Grader",
+        "place": "Snow College",
+        "startDate": "2023-26-01",
+        "endDate": "current",
+        "quote": "‘Teaching is the highest form of understanding.’ –Aristotle",
+        "description": "Assisted in more than *nine courses*, including Advanced Front-End Design, Introduction to Web Development, Object-Oriented Programming, and UX Design. *Evaluated projects and assignments*, while actively engaging in labs to address student questions. This experience sharpened my ability to *analyze diverse coding styles*, deepening my understanding of different approaches to code. This experience also helped me improve my *communication skills and work more effectively with others.*",
+        "symbols": ["communication", "teaching", "javascript", "c#"]
+    }
+]
+</script>
 
 <script>
 
     async function getExperiences() {
 
-        const response = await fetch('/files/workExperiences.json');
-        const experiences = await response.json();
+        const jsonData = document.getElementById('myJsonData').textContent;
+        const experiences = JSON.parse(jsonData);
         const experiencesCtn = document.getElementById('experiences-ctn');
 
         experiences.forEach(experience => {
             const experienceCtn = document.createElement('div');
-            experienceCtn.classList.add('text-white', 'text-2xl', 'font-aleo', 'my-5', 'flex', 'flex-col', 'px-40');
+            experienceCtn.classList.add('text-white', 'text-xl', 'font-aleo', 'my-2', 'flex', 'flex-col', 'px-10', 'experienceCtn');
             experience.description = experience.description.replace(/\*(.*?)\*/g, '<span class="text-red-600">$1</span>');
 
             experienceCtn.innerHTML = `
@@ -29,9 +73,11 @@
             `;
 
             experiencesCtn.appendChild(experienceCtn);
-        }); 
+        });
     }
 
     getExperiences();
+
+    window.progressAnimation();
 
 </script>
