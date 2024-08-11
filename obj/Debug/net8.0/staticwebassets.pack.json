@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets/files/Resume.pdf"
     },
     {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/files/workExperiences.json",
+      "PackagePath": "staticwebassets/files/workExperiences.json"
+    },
+    {
       "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/Aleo-Bold.otf",
       "PackagePath": "staticwebassets/fonts/Aleo-Bold.otf"
     },

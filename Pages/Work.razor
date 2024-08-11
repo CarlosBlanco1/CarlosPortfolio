@@ -1,0 +1,37 @@
+<h1 class="text-4xl text-white font-neuropolitical">Where I've worked</h1>
+
+<div>
+    <div id="experiences-ctn">
+
+    </div>
+</div>
+
+<script>
+
+    async function getExperiences() {
+
+        const response = await fetch('/files/workExperiences.json');
+        const experiences = await response.json();
+        const experiencesCtn = document.getElementById('experiences-ctn');
+
+        experiences.forEach(experience => {
+            const experienceCtn = document.createElement('div');
+            experienceCtn.classList.add('text-white', 'text-2xl', 'font-aleo', 'my-5', 'flex', 'flex-col', 'px-40');
+            experience.description = experience.description.replace(/\*(.*?)\*/g, '<span class="text-red-600">$1</span>');
+
+            experienceCtn.innerHTML = `
+                <h1 class="text-lg my-3 font-bold">${experience.position} at ${experience.company}</h1>
+                <span class="text-lg my-3">${experience.place} | ${experience.startDate} - ${experience.endDate}</span>
+
+                <span class="text-lg my-3 italic">${experience.quote}</span>
+
+                <p class="text-lg my-3">${experience.description}</p>
+            `;
+
+            experiencesCtn.appendChild(experienceCtn);
+        }); 
+    }
+
+    getExperiences();
+
+</script>

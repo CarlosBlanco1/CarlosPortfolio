@@ -1,0 +1,32 @@
+[
+    {
+        "company": "Snow College Engineering",
+        "position": "Teaching Assistant / Grader",
+        "place": "Snow College",
+        "startDate": "2023-26-01",
+        "endDate": "current",
+        "quote": "‘Teaching is the highest form of understanding.’ –Aristotle",
+        "description": "Assisted in more than *nine courses*, including Advanced Front-End Design, Introduction to Web Development, Object-Oriented Programming, and UX Design. *Evaluated projects and assignments*, while actively engaging in labs to address student questions. This experience sharpened my ability to *analyze diverse coding styles*, deepening my understanding of different approaches to code. This experience also helped me improve my *communication skills and work more effectively with others.*",
+        "symbols": ["communication", "teaching", "javascript", "c#"]
+    },
+    {
+        "company": "Snow College Engineering",
+        "position": "Teaching Assistant / Grader",
+        "place": "Snow College",
+        "startDate": "2023-26-01",
+        "endDate": "current",
+        "quote": "‘Teaching is the highest form of understanding.’ –Aristotle",
+        "description": "Assisted in more than *nine courses*, including Advanced Front-End Design, Introduction to Web Development, Object-Oriented Programming, and UX Design. *Evaluated projects and assignments*, while actively engaging in labs to address student questions. This experience sharpened my ability to *analyze diverse coding styles*, deepening my understanding of different approaches to code. This experience also helped me improve my *communication skills and work more effectively with others.*",
+        "symbols": ["communication", "teaching", "javascript", "c#"]
+    },
+    {
+        "company": "Snow College Engineering",
+        "position": "Teaching Assistant / Grader",
+        "place": "Snow College",
+        "startDate": "2023-26-01",
+        "endDate": "current",
+        "quote": "‘Teaching is the highest form of understanding.’ –Aristotle",
+        "description": "Assisted in more than *nine courses*, including Advanced Front-End Design, Introduction to Web Development, Object-Oriented Programming, and UX Design. *Evaluated projects and assignments*, while actively engaging in labs to address student questions. This experience sharpened my ability to *analyze diverse coding styles*, deepening my understanding of different approaches to code. This experience also helped me improve my *communication skills and work more effectively with others.*",
+        "symbols": ["communication", "teaching", "javascript", "c#"]
+    }
+]
