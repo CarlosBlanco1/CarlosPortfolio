@@ -11,11 +11,11 @@ window.progressAnimation = function () {
 
   scroll(animate('#progress-bar', { scaleY: [0, 1] }));
 
-  experiences.forEach(experienceCtn => {
-    scroll(animate(experienceCtn, { y: [-50, 50] }), {
-      target: experienceCtn
-    });
+  // experiences.forEach(experienceCtn => {
+  //   scroll(animate(experienceCtn, { y: [-50, 100] }), {
+  //     target: experienceCtn
+  //   });
 
-  });
+  // });
 
 };
