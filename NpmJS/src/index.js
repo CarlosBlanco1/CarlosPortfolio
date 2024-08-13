@@ -7,15 +7,13 @@ window.progressAnimation = function () {
 
   document.querySelector('#progress-bar').style.transformOrigin = 'top';
 
-  const scrollOptions = {target: experiencesCtn, offset: ["start end", "end end"]}
+  const scrollOptions = { offset: ["start end", "end start"] }
 
   scroll(animate('#progress-bar', { scaleY: [0, 1] }));
+  
 
-  // experiences.forEach(experienceCtn => {
-  //   scroll(animate(experienceCtn, { y: [-50, 100] }), {
-  //     target: experienceCtn
-  //   });
-
-  // });
+  experiences.forEach(experienceCtn => {
+    scroll(animate(experienceCtn, { opacity: [0, 1] }), { target: experienceCtn,  offset: ["start end", "end end"]});
+  });
 
 };

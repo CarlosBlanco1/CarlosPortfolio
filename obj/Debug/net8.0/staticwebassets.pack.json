@@ -69,6 +69,14 @@
       "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/svg/blazor.svg",
+      "PackagePath": "staticwebassets/svg/blazor.svg"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/vid/spvid.mp4",
+      "PackagePath": "staticwebassets/vid/spvid.mp4"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.CarlosPortfolio.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

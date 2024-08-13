@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eLVSpThExK2QnMi8TbOF3ifi3crHwl/KfT02vynjdYE=",
+  "Hash": "Xr1IYxCWLzeDAbsjWPEQzi9JJTg8P69h1f2tRETaHMg=",
   "Source": "CarlosPortfolio",
   "BasePath": "/",
   "Mode": "Root",
@@ -8071,6 +8071,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/sample-data/weather.json"
+    },
+    {
+      "Identity": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/svg/blazor.svg",
+      "SourceId": "CarlosPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "svg/blazor.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg/blazor.svg"
+    },
+    {
+      "Identity": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/vid/spvid.mp4",
+      "SourceId": "CarlosPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "vid/spvid.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/vid/spvid.mp4"
     }
   ]
 }
