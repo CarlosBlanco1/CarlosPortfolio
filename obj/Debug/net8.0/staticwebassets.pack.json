@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets/fonts/Aleo-Regular.otf"
     },
     {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/ProggyVector-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/ProggyVector-Regular.ttf"
+    },
+    {
       "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/neuropoliticalrg.otf",
       "PackagePath": "staticwebassets/fonts/neuropoliticalrg.otf"
     },

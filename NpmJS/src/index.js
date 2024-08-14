@@ -9,7 +9,7 @@ window.progressAnimation = function () {
 
   const scrollOptions = { offset: ["start end", "end start"] }
 
-  scroll(animate('#progress-bar', { scaleY: [0, 1] }));
+  scroll(animate('#progress-bar', { scaleY: [0, 2] }));
   
 
   experiences.forEach(experienceCtn => {

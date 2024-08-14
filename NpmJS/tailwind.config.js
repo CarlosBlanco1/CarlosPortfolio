@@ -6,6 +6,7 @@ module.exports = {
         aleo: ['Aleo-Regular', 'sans-serif'],
         aleoBold: ['Aleo-Bold', 'sans-serif'],
         neuropolitical: ['Neuropolitical', 'sans-serif'],
+        proggy: ['Proggy', 'sans-serif'],
       },
     },
   },
