@@ -90,14 +90,7 @@
             const video = document.createElement('video');
             video.classList.add('max-w-screen-s', 'h-auto');
             video.src = project['project-vid'];
-
-            video.addEventListener('mouseover', () => {
-                video.play();
-            });
-
-            video.addEventListener('mouseout', () => {
-                video.pause();
-            });
+            video.controls = true;
 
             videoCtn.appendChild(video);
 

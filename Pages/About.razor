@@ -103,7 +103,7 @@
             <div class="personal-icon w-1/3 flex flex-col items-center justify-center -rotate-12">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-barbell">
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-barbell carlos-icon">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M2 12h1" />
                     <path d="M6 8h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2" />
@@ -115,7 +115,7 @@
                 </svg>
                 <div class="flex items-center gap-2 bg-[#1e1e1e] p-2 rounded-3xl">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                        class="icon icon-tabler icons-tabler-filled icon-tabler-heart">
+                        class="icon icon-tabler icons-tabler-filled icon-tabler-heart heart-icon">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path
                             d="M6.979 3.074a6 6 0 0 1 4.988 1.425l.037 .033l.034 -.03a6 6 0 0 1 4.733 -1.44l.246 .036a6 6 0 0 1 3.364 10.008l-.18 .185l-.048 .041l-7.45 7.379a1 1 0 0 1 -1.313 .082l-.094 -.082l-7.493 -7.422a6 6 0 0 1 3.176 -10.215z" />
@@ -127,7 +127,7 @@
             <div class="personal-icon w-1/3 flex flex-col items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-pizza">
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-pizza carlos-icon">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path
                         d="M12 21.5c-3.04 0 -5.952 -.714 -8.5 -1.983l8.5 -16.517l8.5 16.517a19.09 19.09 0 0 1 -8.5 1.983z" />
@@ -137,7 +137,7 @@
                 </svg>
                 <div class="flex items-center gap-2 bg-[#1e1e1e] p-2 rounded-3xl">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                        class="icon icon-tabler icons-tabler-filled icon-tabler-heart">
+                        class="icon icon-tabler icons-tabler-filled icon-tabler-heart heart-icon">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path
                             d="M6.979 3.074a6 6 0 0 1 4.988 1.425l.037 .033l.034 -.03a6 6 0 0 1 4.733 -1.44l.246 .036a6 6 0 0 1 3.364 10.008l-.18 .185l-.048 .041l-7.45 7.379a1 1 0 0 1 -1.313 .082l-.094 -.082l-7.493 -7.422a6 6 0 0 1 3.176 -10.215z" />
@@ -149,7 +149,7 @@
             <div class="personal-icon w-1/3 flex flex-col items-center justify-center rotate-12">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-soccer-field">
+                    class="icon icon-tabler icons-tabler-outline icon-tabler-soccer-field carlos-icon">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
                     <path d="M3 9h3v6h-3z" />
@@ -159,7 +159,7 @@
                 </svg>
                 <div class="flex items-center gap-2 bg-[#1e1e1e] p-2 rounded-3xl">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                        class="icon icon-tabler icons-tabler-filled icon-tabler-heart">
+                        class="icon icon-tabler icons-tabler-filled icon-tabler-heart heart-icon">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path
                             d="M6.979 3.074a6 6 0 0 1 4.988 1.425l.037 .033l.034 -.03a6 6 0 0 1 4.733 -1.44l.246 .036a6 6 0 0 1 3.364 10.008l-.18 .185l-.048 .041l-7.45 7.379a1 1 0 0 1 -1.313 .082l-.094 -.082l-7.493 -7.422a6 6 0 0 1 3.176 -10.215z" />
@@ -293,21 +293,22 @@
         color: #dc2626;
     }
 
-    .personal-icon svg {
+    .carlos-icon {
         width: 70%;
-        color: #dc2626;
+        height: auto;
+        stroke: #dc2626;
         stroke-width: 1;
+    }
+
+    .heart-icon {
+        width: 24px;
+        height: 24px;
+        color: #dc2626
     }
 
     .personal-icon:nth-of-type(2) {
         position: relative;
         top: 10em;
-    }
-
-    .personal-icon div svg {
-        width: 24px;
-        height: 24px;
-        color: #dc2626
     }
 
     .bachelor {
@@ -318,8 +319,4 @@
         fill: white;
     }
 
-    @* .bachelor:hover {
-        font-size: 1.1em;
-        color: white;
-    } *@
 </style>

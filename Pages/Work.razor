@@ -81,10 +81,10 @@
         experiences.forEach(experience => {
             const experienceCtn = document.createElement('div');
             experienceCtn.classList.add('text-white', 'text-xl', 'font-aleo', 'flex', 'flex-col', 'pl-20', 'experienceCtn');
-            experience.description = experience.description.replace(/\*(.*?)\*/g, '<span class="text-red-600">$1</span>');
+            experience.description = experience.description.replace(/\*(.*?)\*/g, '<span class="text-[#dc2626]">$1</span>');
 
             experienceCtn.innerHTML = `
-                <h1 class="text-3xl my-2 font-bold hover:text-red-600">${experience.position} at ${experience.company}</h1>
+                <h1 class="text-3xl my-2 font-bold hover:text-[#dc2626]">${experience.position} at ${experience.company}</h1>
                 <span class="text-lg my-3">${experience.place} | ${experience.startDate} - ${experience.endDate}</span>
 
                 <span class="text-lg my-3 italic">${experience.quote}</span>
