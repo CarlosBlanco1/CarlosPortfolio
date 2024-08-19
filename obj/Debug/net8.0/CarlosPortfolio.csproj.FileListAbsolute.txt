@@ -406,8 +406,6 @@
 /Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/wwwroot/_framework/System.Runtime.Serialization.Json.wasm.gz
 /Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/wwwroot/_framework/System.Xml.wasm.gz
 /Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json.gz
-/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/NpmJS/package-lock.json
-/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/NpmJS/package.json
 /Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/CarlosPortfolio.staticwebassets.runtime.json
 /Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/CarlosPortfolio.dll
 /Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/CarlosPortfolio.pdb
