@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Release/net8.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/obj/Release/net8.0/compressed/bwztjbmygw.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/obj/Release/net8.0/scopedcss/bundle/CarlosPortfolio.styles.css",
+      "PackagePath": "staticwebassets/CarlosPortfolio.styles.css"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/css/output.css",
+      "PackagePath": "staticwebassets/css/output.css"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/files/Resume.pdf",
+      "PackagePath": "staticwebassets/files/Resume.pdf"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/files/workExperiences.json",
+      "PackagePath": "staticwebassets/files/workExperiences.json"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/Aleo-Bold.otf",
+      "PackagePath": "staticwebassets/fonts/Aleo-Bold.otf"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/Aleo-Regular.otf",
+      "PackagePath": "staticwebassets/fonts/Aleo-Regular.otf"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/ProggyVector-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/ProggyVector-Regular.ttf"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/fonts/neuropoliticalrg.otf",
+      "PackagePath": "staticwebassets/fonts/neuropoliticalrg.otf"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/js/index.bundle.js",
+      "PackagePath": "staticwebassets/js/index.bundle.js"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/sample-data/weather.json",
+      "PackagePath": "staticwebassets/sample-data/weather.json"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/svg/blazor.svg",
+      "PackagePath": "staticwebassets/svg/blazor.svg"
+    },
+    {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/vid/spvid.mp4",
+      "PackagePath": "staticwebassets/vid/spvid.mp4"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.CarlosPortfolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.CarlosPortfolio.props",
+      "PackagePath": "build\\CarlosPortfolio.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.CarlosPortfolio.props",
+      "PackagePath": "buildMultiTargeting\\CarlosPortfolio.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.CarlosPortfolio.props",
+      "PackagePath": "buildTransitive\\CarlosPortfolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

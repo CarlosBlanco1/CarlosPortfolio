@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XdItKZAX88FO9DPNt4H1Fo2sB81Kkufy7q3NxAYh7+Q=",
+  "Hash": "zE/4eIHutd1zcebD3k70ALgdoo4bLOTSL8mMPlpnAO8=",
   "Source": "CarlosPortfolio",
   "BasePath": "/",
   "Mode": "Root",
@@ -8033,6 +8033,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/icon-192.png"
+    },
+    {
+      "Identity": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/index.html",
+      "SourceId": "CarlosPortfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
     },
     {
       "Identity": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/js/index.bundle.js",

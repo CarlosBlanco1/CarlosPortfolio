@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets/icon-192.png"
     },
     {
+      "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
       "Id": "/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/wwwroot/js/index.bundle.js",
       "PackagePath": "staticwebassets/js/index.bundle.js"
     },
