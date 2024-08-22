@@ -1029,3 +1029,5 @@
 /Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/obj/Debug/net8.0/CarlosPortfolio.pdb
 /Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/obj/Debug/net8.0/ref/CarlosPortfolio.dll
 /Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/obj/Debug/net8.0/CarlosPortfolio.sourcelink.json
+/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/NpmJS/package-lock.json
+/Users/carlosfelipeblancocastro/Desktop/CarlosPortfolio/bin/Debug/net8.0/NpmJS/package.json
