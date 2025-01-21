@@ -181,7 +181,7 @@
             <h2 class="text-2xl text-white font-neuropolitical">Location</h2>
         </div>
         <div class=" flex flex-col items-center gap-2 mt-5">
-            <h2>Based in <span class="text-[#dc2626] mb-2">Ephraim, UT</span></h2>
+            <h2>Based in <span class="text-[var(--display-red)] mb-2">Ephraim, UT</span></h2>
             <div class="text-xl mb-4" id="inSameTimezone"></div>
         </div>
         <hr class="mx-auto border-white border-2 border-solid w-4/5">
@@ -223,7 +223,7 @@
 
             const timeElement = document.getElementById("time-ctn");
             timeElement.innerHTML = `
-            <span class="text-[#dc2626] text-4xl font-bold">${formattedTime}</span> <span class="text-xl">${timezone}</span>
+            <span class="text-[var(--display-red)] text-4xl font-bold">${formattedTime}</span> <span class="text-xl">${timezone}</span>
             `;
 
             const date = new Date();
@@ -257,13 +257,13 @@
         <div class="mt-3">
             <div class="text-2xl">
                 <a href="https://www.snow.edu/academics/science_math/engineering/se/?gad_source=1&gclid=Cj0KCQjwlIG2BhC4ARIsADBgpVTC04wN8NIrP_IRlZMI02UM7bkYzCxiS2dNcN31IwdtZHEBw7mQA9UaAvWPEALw_wcB"
-                    class=" no-underline flex items-center gap-2 text-[#dc2626] group bachelor">
-                    <h1 class="group-hover:text-[#dc2626]">Bachelor's Degree in Software Engineering</h1>
+                    class=" no-underline flex items-center gap-2 text-[var(--display-red)] group bachelor">
+                    <h1 class="group-hover:text-[var(--display-red)]">Bachelor's Degree in Software Engineering</h1>
                     <svg xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                         <path
                             d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"
-                            class="group-hover:fill-[#dc2626]">
+                            class="group-hover:fill-[var(--display-red)]">
                         </path>
                     </svg>
                 </a>
@@ -275,15 +275,15 @@
         </div>
         <div class="mt-5 text-lg">
             <p>
-                Currently in my <span class="text-[#dc2626]">senior year of college</span> at <a
-                    href="https://www.snow.edu/" class="text-[#dc2626] underline hover:text-[#dc2626]">Snow College</a>, I am pursuing a
+                Currently in my <span class="text-[var(--display-red)]">senior year of college</span> at <a
+                    href="https://www.snow.edu/" class="text-[var(--display-red)] underline hover:text-[var(--display-red)]">Snow College</a>, I am pursuing a
                 Bachelor's
                 Degree in Software Engineering with
-                an emphasis in <span class="text-[#dc2626]">Web Development and Data Science</span>. During these years
+                an emphasis in <span class="text-[var(--display-red)]">Web Development and Data Science</span>. During these years
                 I have developed a strong understanding of
-                <span class="text-[#dc2626]">programming languages, algorithms, and data structures</span>. I have also
+                <span class="text-[var(--display-red)]">programming languages, algorithms, and data structures</span>. I have also
                 gained experience in
-                <span class="text-[#dc2626]">web development, database management, and software testing</span>.
+                <span class="text-[var(--display-red)]">web development, database management, and software testing</span>.
             </p>
         </div>
     </div>
@@ -291,20 +291,20 @@
 
 <style>
     p span {
-        color: #dc2626;
+        color: var(--display-red);
     }
 
     .carlos-icon {
-        width: 70%;
+        width: 100px;
         height: auto;
-        stroke: #dc2626;
+        stroke: var(--display-red);
         stroke-width: 1;
     }
 
     .heart-icon {
         width: 24px;
         height: 24px;
-        color: #dc2626
+        color: var(--display-red)
     }
 
     .personal-icon:nth-of-type(2) {
