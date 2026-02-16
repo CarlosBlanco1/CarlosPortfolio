@@ -1227,6 +1227,11 @@ code {
     row-gap: 2rem;
   }
 
+  .max-md\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
   .max-md\:text-\[100\%\] {
     font-size: 100%;
   }
@@ -1255,5 +1260,19 @@ code {
 @media (min-width: 733px) {
   .sm\:block {
     display: block;
+  }
+}
+
+@media (min-width: 845px) {
+  .md\:w-4\/5 {
+    width: 80%;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 }
