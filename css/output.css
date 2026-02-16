@@ -562,6 +562,10 @@ video {
   position: relative;
 }
 
+.top-\[10em\] {
+  top: 10em;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -1186,7 +1190,31 @@ code {
   color: var(--display-red);
 }
 
-@media (min-width: 640px) {
+@media not all and (min-width: 1280px) {
+  .max-xl\:top-\[6em\] {
+    top: 6em;
+  }
+}
+
+@media not all and (min-width: 1024px) {
+  .max-lg\:top-0 {
+    top: 0px;
+  }
+
+  .max-lg\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .max-lg\:w-full {
+    width: 100%;
+  }
+
+  .max-lg\:flex-col {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 733px) {
   .sm\:block {
     display: block;
   }
