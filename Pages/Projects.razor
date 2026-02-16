@@ -15,7 +15,7 @@
         "project-link": "https://sp500.carlosblancodev.com/",
         "project-subtitle": "A web page made to show my ML model for predicting the SP500",
         "project-description": "This web app uses data from public *Yahoo Finance APIs* to train a *Random Forest Classifier* (~57% accuracy) built in *Python* to predict whether the *S&P 500 closing price* will rise or fall based on daily, weekly, and monthly trends, leveraging *scikit-learn, pandas, NumPy, and yfinance* for modeling and data processing; the backend was developed with *FastAPI*, the frontend with *React*, a *Redis cache* was implemented to efficiently serve daily predictions, and the entire system was deployed on a *self-configured home lab* using *Kubernetes* with a fully automated *CI/CD pipeline.*",
-        "project-symbols": ["Python", "React", "ML", "Docker", "Finance", "ServerConfig"],
+        "project-symbols": ["Python", "React", "ML", "Docker", "Finance", "Server"],
         "project-vid": "vid/sp500.mp4"
     },
     {
@@ -51,10 +51,10 @@
 
         projects.forEach(project => {
             const projectCtn = document.createElement('div');
-            projectCtn.classList.add('flex', 'gap-4', 'items-center', 'justify-center', 'border-2', 'border-solid', 'border-gray-400', 'p-8', 'rounded-2xl', 'w-4/5');
+            projectCtn.classList.add('flex', 'max-lg:flex-col', 'gap-4', 'items-center', 'justify-center', 'border-2', 'border-solid', 'border-gray-400', 'p-8', 'rounded-2xl', 'w-4/5');
 
             const textCtn = document.createElement('div');
-            textCtn.classList.add('flex', 'flex-col', 'font-aleo', 'text-white', 'w-1/2');
+            textCtn.classList.add('flex', 'flex-col', 'font-aleo', 'text-white', 'w-1/2', 'max-lg:w-[80%]');
 
             textCtn.innerHTML = `
         <div class="flex gap-x-2 items-center github-link-icon">
@@ -85,7 +85,7 @@
         `;
 
             const videoCtn = document.createElement('div');
-            videoCtn.classList.add('flex', 'justify-center', 'items-center');
+            videoCtn.classList.add('flex', 'justify-center', 'items-center', 'w-1/2', 'max-lg:w-[80%]');
 
             const video = document.createElement('video');
             video.classList.add('max-w-screen-s', 'h-auto');
